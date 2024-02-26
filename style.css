@@ -114,9 +114,12 @@ nav {
   margin-top: 30px;
   text-align: center;
   margin-bottom: 100px;
+  background-color: whitesmoke;
+  height: 67vh;
 }
 
 .title_service {
+  padding: 23px;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 10px;
@@ -166,6 +169,258 @@ nav {
 
 .read_btn:hover {
   background-color: orange;
-  color: white;
+  color: black;
+  border: 1px solid orange;
+}
+
+/* vitamin section */
+
+.vitamin_section {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 70px 70px;
+}
+
+.vitamin_title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.vitamin_title span {
+  color: orange;
+}
+
+.vitamin_text {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* vitamin item */
+/* list 1 */
+
+.vitamin_item {
+  background-color: whitesmoke;
+  padding: 70px 70px;
+  justify-content: space-between;
+  display: flex;
+  height: 95vh;
+}
+
+.vitamin_list {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.vitamin_titlelist {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.vitamin_textlist {
+  margin-top: 10%;
+}
+
+.list_text {
+  margin-top: 5%;
+  font-size: 23px;
+}
+
+.vitamin_img {
+  width: 40%;
+  height: fit-content;
+}
+
+.btn_vitamin {
+  margin-top: 10%;
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.readbtn_vitamin {
+  background-color: orange;
+}
+
+.readbtn_vitamin:hover {
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+/* list 2 */
+.vitamin_item2 {
+  background-color: white;
+  padding: 70px 70px;
+  justify-content: space-between;
+  display: flex;
+  height: 95vh;
+}
+
+.vitamin_list2 {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.vitamin_titlelist2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.vitamin_textlist2 {
+  margin-top: 10%;
+}
+
+.list_text2 {
+  margin-top: 5%;
+  font-size: 23px;
+}
+
+.vitamin_img2 {
+  width: 40%;
+  height: fit-content;
+}
+
+.btn_vitamin2 {
+  margin-top: 10%;
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.readbtn_vitamin2 {
+  background-color: orange;
+}
+
+.readbtn_vitamin2:hover {
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+/* list 3 */
+.vitamin_item3 {
+  background-color: whitesmoke;
+  padding: 70px 70px;
+  justify-content: space-between;
+  display: flex;
+  height: 95vh;
+}
+
+.vitamin_list3 {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.vitamin_titlelist3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.vitamin_textlist3 {
+  margin-top: 10%;
+}
+
+.list_text3 {
+  margin-top: 5%;
+  font-size: 23px;
+}
+
+.vitamin_img3 {
+  width: 40%;
+  height: fit-content;
+}
+
+.btn_vitamin3 {
+  margin-top: 10%;
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.readbtn_vitamin3 {
+  background-color: orange;
+}
+
+.readbtn_vitamin3:hover {
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+/* list 4 */
+.vitamin_item4 {
+  background-color: white;
+  padding: 70px 70px;
+  justify-content: space-between;
+  display: flex;
+  height: 95vh;
+}
+
+.vitamin_list4 {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.vitamin_titlelist4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.vitamin_textlist4 {
+  margin-top: 10%;
+}
+
+.list_text4 {
+  margin-top: 5%;
+  font-size: 23px;
+}
+
+.vitamin_img4 {
+  width: 40%;
+  height: fit-content;
+}
+
+.btn_vitamin4 {
+  margin-top: 10%;
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.readbtn_vitamin4 {
+  background-color: orange;
+}
+
+.readbtn_vitamin4:hover {
+  background-color: white;
+  color: orange;
   border: 1px solid orange;
 }
