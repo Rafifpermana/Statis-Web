@@ -410,17 +410,113 @@ nav {
   border: 1px solid orange;
 }
 
-/* contact infomation */
-/* .contact_us {
+/* .contact_us  */
+.contact_hero {
+  min-height: 95vh;
   background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact_titleinfor {
+.contact_img {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.contact_infor {
+  margin-top: 60px;
+  width: 670px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+
+.contact_title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 800;
+  margin-top: 20px;
+  width: 600px;
   text-align: center;
-  font-size: 40px;
-  font-weight: 600;
 }
 
-.contact_titleinfor span {
+.contact_title span {
   color: white;
-} */
+}
+
+.input_us {
+  color: white;
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid white;
+}
+
+.input_us::placeholder {
+  color: #d3d3d3;
+}
+
+.contact_title2 {
+  color: #fff;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.input_us2 {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white !important;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(194, 194, 194, 0.5);
+}
+
+.contact_btn {
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100px;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 15px;
+}
+
+.contact_btn:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+  text-align: center;
+}
